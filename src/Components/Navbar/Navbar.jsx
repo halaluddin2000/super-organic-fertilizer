@@ -12,7 +12,7 @@ function Navbar() {
       <div className="container flex justify-between items-center py-6">
         {/* logo section */}
         <div>
-          <img src="/src/assets/SOFlogo.png" alt="" />
+          <img src="https://i.ibb.co.com/BqxZws8/SOFlogo.png" alt="" />
         </div>
         {/* menu section */}
         <div className="hidden md:block">
@@ -32,7 +32,7 @@ function Navbar() {
           </ul>
         </div>
         {/* icon section */}
-        <div className="text-2xl hover:text-rose-400">
+        <div className="text-2xl hover:text-rose-400 hidden md:block">
           <FaCartPlus />
         </div>
         {/* mobile menu section */}

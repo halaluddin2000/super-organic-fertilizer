@@ -6,6 +6,11 @@ export default {
   ],
   theme: {
     extend: {
+      colors: {
+        bgColor: "#1F4E3D",
+        primary: '#ff9c00',
+        secondary: '#fb923c'
+      },
       container: {
         center: true,
         padding: {

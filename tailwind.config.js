@@ -5,6 +5,9 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    fontFamily: {
+      fontFamily: ["Poppins", "sans-serif"]
+    },
     extend: {
       colors: {
         bgColor: "#1F4E3D",

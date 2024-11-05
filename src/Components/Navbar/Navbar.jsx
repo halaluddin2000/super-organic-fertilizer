@@ -1,9 +1,10 @@
 import { useState } from "react";
-import { NavbarMenu } from "./NavData";
 import "/src/Components/Navbar/navbar.css";
 import { FaCartPlus } from "react-icons/fa";
 import { MdMenu } from "react-icons/md";
 import ResponsiveNavbar from "./ResponsiveNavbar";
+import { NavbarMenu } from "../../data/Navbar/NavData";
+import { IoClose } from "react-icons/io5";
 
 function Navbar() {
   const [open, setOpen] = useState(false);
@@ -36,8 +37,12 @@ function Navbar() {
           <FaCartPlus />
         </div>
         {/* mobile menu section */}
-        <div className="md:hidden" onClick={() => setOpen(!open)}>
-          <MdMenu className="text-4xl" />
+        <div className="md:hidden" onClick={() => setOpen((prev) => !prev)}>
+          {open ? (
+            <IoClose className="text-4xl" />
+          ) : (
+            <MdMenu className="text-4xl" />
+          )}
         </div>
       </div>
 

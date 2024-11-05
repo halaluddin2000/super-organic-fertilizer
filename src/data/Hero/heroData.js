@@ -1,11 +1,14 @@
+import img1 from '../../assets/slider_01.jpg'
+import img2 from '../../assets/slider_03.jpeg'
+
 const imageSlide = [
     {
-        url: 'https://i.ibb.co.com/5WMhwJ9/slider-01.jpg',
+        url: img1,
         title: 'Natural “Bioactive” Fertilizer',
         body: 'A LIVING FERTILIZER “SARUPALA”',
     },
     {
-        url: 'slider_02.jpg',
+        url: img2,
         title: 'Welcome To ',
         body: 'SUPER ORGANIC FERTILIZERS',
     }

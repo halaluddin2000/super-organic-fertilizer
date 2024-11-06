@@ -2,7 +2,7 @@ import BackgroundSlider from "./BackgroundSlider";
 
 function Hero() {
   return (
-    <div className="container">
+    <div>
       <BackgroundSlider />
     </div>
   );

@@ -1,0 +1,31 @@
+.discover {
+  margin-top: 10%;
+  height: 20%;
+}
+.discover-img {
+  height: 50%;
+}
+.discover-img img {
+  height: 100%;
+  border-radius: 50%;
+  justify-items: start;
+}
+.text-img {
+  height: 2%;
+}
+.discover-img2 {
+  height: 15%;
+  width: 100%;
+  justify-items: end;
+}
+.discover-img2 img {
+  height: 100%;
+  width: 50%;
+}
+.text-img {
+  height: 5%;
+  z-index: -10;
+}
+.text-img img {
+  height: 50%;
+}

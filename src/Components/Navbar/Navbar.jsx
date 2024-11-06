@@ -5,15 +5,16 @@ import { MdMenu } from "react-icons/md";
 import ResponsiveNavbar from "./ResponsiveNavbar";
 import { NavbarMenu } from "../../data/Navbar/NavData";
 import { IoClose } from "react-icons/io5";
+import logo from "../../assets/SOFlogo.png";
 
 function Navbar() {
   const [open, setOpen] = useState(false);
   return (
-    <nav>
-      <div className="container flex justify-between items-center py-6">
+    <nav className="navbar">
+      <div className="flex justify-between bg-slate-50 mb-1 items-center py-6">
         {/* logo section */}
-        <div>
-          <img src="https://i.ibb.co.com/BqxZws8/SOFlogo.png" alt="" />
+        <div className="mainLogo">
+          <img src={logo} alt="" />
         </div>
         {/* menu section */}
         <div className="hidden md:block">
@@ -33,7 +34,7 @@ function Navbar() {
           </ul>
         </div>
         {/* icon section */}
-        <div className="text-2xl hover:text-rose-400 hidden md:block">
+        <div className="text-2xl pr-5 hover:text-rose-400 hidden md:block">
           <FaCartPlus />
         </div>
         {/* mobile menu section */}

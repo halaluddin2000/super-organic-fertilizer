@@ -1,7 +1,8 @@
+import { Cards } from "./Cards/Cards";
 function Product() {
   return (
     <div>
-      <h1>This is Product</h1>
+      <Cards />
     </div>
   );
 }

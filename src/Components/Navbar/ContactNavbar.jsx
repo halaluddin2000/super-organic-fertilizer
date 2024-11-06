@@ -6,10 +6,10 @@ import { FaFacebookF, FaYoutube } from "react-icons/fa";
 function ContactNavbar() {
   return (
     <nav className="hidden md:block">
-      <div className="container flex justify-between text-white">
-        <div className="flex flex-8 py-3 p-3 w-4/5 items-center bg-bgColor">
+      <div className="flex justify-between bg-bgColor text-white">
+        <div className="flex flex-8 py-3 p-3 w-4/5 items-center ">
           {/* location */}
-          <div className="flex items-center gap-1 border-r-slate-50">
+          <div className="container flex items-center gap-1 border-r-slate-50">
             <IoLocationOutline className="text-2xl" />
             <p>Chunati, Lohagara, Chattogram, Bangladesh .</p>
           </div>

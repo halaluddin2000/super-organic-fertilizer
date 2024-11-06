@@ -1,6 +1,8 @@
 import Hero from "../../Hero/Hero";
 import ContactNavbar from "../../Navbar/ContactNavbar";
 import Navbar from "../../Navbar/Navbar";
+import Product from "../Products/Product";
+import Discover from "./Discover/Discover";
 
 function Home() {
   return (
@@ -8,9 +10,12 @@ function Home() {
       <div>
         <ContactNavbar />
       </div>
-      <Navbar />
-
-      <Hero />
+      <div className="container">
+        <Navbar />
+        <Hero />
+        <Discover />
+        <Product />
+      </div>
     </div>
   );
 }

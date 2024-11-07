@@ -1,3 +1,4 @@
+import Footer from "../../Footer/Footer";
 import Hero from "../../Hero/Hero";
 import ContactNavbar from "../../Navbar/ContactNavbar";
 import Navbar from "../../Navbar/Navbar";
@@ -17,6 +18,7 @@ function Home() {
         <Discover />
         <Product />
         <ChooseUs />
+        <Footer />
       </div>
     </div>
   );

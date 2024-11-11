@@ -5,7 +5,7 @@ import { FaPhoneAlt } from "react-icons/fa";
 function SecondContact() {
   return (
     <div className="grid w-full  lg:grid-cols-7 ">
-      <div className="lg:col-span-3 bg-[#2A713d] px-4 py-10 text-white">
+      <div className="lg:col-span-3 bg-[#2A713d] pl-10 py-10 text-white">
         <h2 className="text-4xl font-bold mb-10">Contact Details</h2>
         <span className="flex items-center  gap-2 text-xl">
           <MdLocationOn className="text-3xl font-bold" />

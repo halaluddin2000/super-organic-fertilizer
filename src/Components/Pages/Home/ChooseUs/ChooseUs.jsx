@@ -2,7 +2,7 @@ import img from "../../../../assets/black.png";
 import "./chooseUs.css";
 function ChooseUs() {
   return (
-    <div className="mt-36 bg-slate-200 p-10">
+    <div className="mt-3 p-10">
       <div className="flex flex-col gap-5 justify-center items-center">
         <h1 className="text-4xl mt-5  font-bold text-center">
           Why Choose Sarupala Fertilizer ?

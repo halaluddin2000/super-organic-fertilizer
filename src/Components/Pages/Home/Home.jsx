@@ -5,6 +5,7 @@ import Navbar from "../../Navbar/Navbar";
 import ContactUs from "../Contact/ContactUs";
 import SecondContact from "../Contact/SecondContact";
 import Product from "../Products/Product";
+import Benefits from "./Benefits/Benefits";
 import ChooseUs from "./ChooseUs/ChooseUs";
 import Discover from "./Discover/Discover";
 
@@ -20,6 +21,7 @@ function Home() {
         <Discover />
         <Product />
         <ChooseUs />
+        <Benefits />
         <div>
           <ContactUs />
           <SecondContact />

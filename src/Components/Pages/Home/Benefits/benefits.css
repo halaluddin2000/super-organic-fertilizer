@@ -1,0 +1,26 @@
+.benefitsContainer {
+  position: relative;
+  text-align: center;
+  background-color: #eff2f5;
+}
+
+.benefitsHeader {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+}
+.benefitsHeader h2 {
+  font-size: xx-large;
+  font-weight: 700;
+}
+.benefitsHeader p {
+  font-weight: 500;
+  color: gray;
+}
+
+.heading-underline {
+  color: green;
+  border: 1.5px solid;
+  justify-content: center;
+  justify-items: center;
+}

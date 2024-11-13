@@ -10,7 +10,7 @@ export default function ContactUs() {
           color="blue-gray"
           className="mb-4 !text-3xl lg:!text-5xl  py-4"
         >
-          Contact Us
+          Contact <span className="text-green-600">Us</span>
         </Typography>
         <div className="grid grid-cols-1 gap-x-12 gap-y-6 lg:grid-cols-2 items-start">
           <img
@@ -22,14 +22,14 @@ export default function ContactUs() {
             <Typography
               variant="h5"
               color="blue-gray"
-              className="my-2 !text-base lg:!text-2xl"
+              className="my-2 text-green-600 italic !text-base lg:!text-2xl"
             >
               Have Questions?
             </Typography>
             <Typography
               variant="h1"
               color="blue-gray"
-              className="mb-4 !text-2xl lg:!text-3xl"
+              className="mb-4 font-bold !text-3xl lg:!text-4xl"
             >
               Send Us a Massage
             </Typography>
@@ -102,7 +102,7 @@ export default function ContactUs() {
             <div>
               <Typography
                 variant="small"
-                className="mb-2 text-left font-medium !text-gray-900"
+                className="mb-2 py-3 text-left font-medium !text-gray-900"
               >
                 Your Message
               </Typography>
@@ -121,7 +121,7 @@ export default function ContactUs() {
               />
             </div>
             <Button
-              className="w-full bg-green-700 hover:bg-primary"
+              className="w-full p-2  bg-green-700 hover:bg-primary"
               color="gray"
             >
               GET IN TOUCH

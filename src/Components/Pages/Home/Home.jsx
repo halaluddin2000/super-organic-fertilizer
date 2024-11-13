@@ -2,6 +2,7 @@ import Footer from "../../Footer/Footer";
 import Hero from "../../Hero/Hero";
 import ContactNavbar from "../../Navbar/ContactNavbar";
 import Navbar from "../../Navbar/Navbar";
+import TestimonialsVideo from "../../Video/TestimonialsVideo";
 import ContactUs from "../Contact/ContactUs";
 import SecondContact from "../Contact/SecondContact";
 import Product from "../Products/Product";
@@ -22,6 +23,7 @@ function Home() {
         <Product />
         <ChooseUs />
         <Benefits />
+        <TestimonialsVideo />
         <div>
           <ContactUs />
           <SecondContact />

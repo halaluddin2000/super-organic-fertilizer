@@ -11,7 +11,7 @@ export function Cards() {
         </h1>
         <img src={productImg} alt="" />
       </div>
-      <div className="md:flex flex-row gap-4 mb-5 p-2">
+      <div className="grid lg:grid-cols-2 gap-6 ">
         {productCards.map((cards) => {
           return <ProductCard key={cards.id} cards={cards} />;
         })}

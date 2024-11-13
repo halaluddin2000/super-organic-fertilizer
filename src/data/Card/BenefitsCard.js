@@ -5,7 +5,7 @@ import natural from "../../assets/B.card/natural.png"
 import erosion from "../../assets/B.card/erosion.png"
 
 
-const productCards = [
+const benefitsCards = [
     {
         img: enhance,
         title: 'Increased Crop Fields',
@@ -32,4 +32,4 @@ const productCards = [
         body: 'Protect your soil from erosion and promote sustainable farming practices.'
     },
 ]
-export default productCards
+export default benefitsCards

@@ -3,7 +3,6 @@ import ProductCard from "../ProductCard";
 import productImg from "../../../../assets/8.png";
 
 export function Cards() {
-  console.log(productCards);
   return (
     <div className="bg-[#fff]">
       <div className="product-img flex items-center justify-center">

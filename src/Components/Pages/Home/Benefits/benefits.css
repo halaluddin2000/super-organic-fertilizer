@@ -1,14 +1,3 @@
-.benefitsContainer {
-  position: relative;
-  text-align: center;
-  background-color: #eff2f5;
-}
-
-.benefitsHeader {
-  position: absolute;
-  top: 10%;
-  left: 10%;
-}
 .benefitsHeader h2 {
   font-size: xx-large;
   font-weight: 700;
@@ -18,9 +7,11 @@
   color: gray;
 }
 
-.heading-underline {
+.card-underline {
   color: green;
+  margin-top: 10px;
   border: 1.5px solid;
   justify-content: center;
   justify-items: center;
+  width: 10%;
 }

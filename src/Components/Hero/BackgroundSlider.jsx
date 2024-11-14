@@ -44,7 +44,7 @@ function BackgroundSlider() {
 
   return (
     <div className="container-style mb-5">
-      <div style={bgImageStyle}></div>
+      <div className="bgImg" style={bgImageStyle}></div>
       <div className="transparent-background"></div>
       <div className="description">
         <motion.div

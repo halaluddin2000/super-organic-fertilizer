@@ -1,25 +1,23 @@
 import discoverImg from "../../../../assets/slider_02.jpg";
-import discoverImg2 from "../../../../assets/leaf.png";
 import discoverTextImg from "../../../../assets/fv.png";
 import "./discover.css";
 function Discover() {
   return (
-    <div className="discover grid md:grid-flow-col gap-8 justify-center">
+    <div className="discovered grid md:grid-flow-col gap-8 justify-center">
       <div className="discover-img ">
         <img src={discoverImg} alt="" />
       </div>
       <div className="flex-1">
-        <div className="discover-img2 mt-0 mb-5">
-          <img className="" src={discoverImg2} alt="" />
-        </div>
-        <span className="text-img flex items-center">
+        <span className="text-img pt-4 flex items-center">
           <img className="" src={discoverTextImg} alt="" />{" "}
-          <h2 className="text-2xl font-semibold text-green-700">
+          <h2 className="lg:text-3xl text-xl font-semibold text-green-700">
             Natural “Bioactive” Fertilizer
           </h2>
         </span>
-        <h1 className="text-4xl font-bold mb-5">Living Fertilizer Formula</h1>
-        <p className="text-gray-500">
+        <h1 className="text-4xl lg:text-5xl my-4 font-bold mb-5">
+          Living Fertilizer Formula
+        </h1>
+        <p className="text-gray-500 py-4 pr-5">
           Discover the difference with “SARUPALA” more than just fertilizer, it
           is a living solution to enrich your soil. Our unique formula,
           developed through cutting-edge biotechnology, harnesses the power of

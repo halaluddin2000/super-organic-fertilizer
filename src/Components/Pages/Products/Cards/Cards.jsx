@@ -4,8 +4,8 @@ import productImg from "../../../../assets/8.png";
 
 export function Cards() {
   return (
-    <div className="bg-[#fff]">
-      <div className="product-img flex items-center justify-center">
+    <div className="bg-slate-100 p-2">
+      <div className="product-img flex mb-10 items-center justify-center">
         <h1 className="text-5xl font-bold text-center text-primary">
           Our Product
         </h1>

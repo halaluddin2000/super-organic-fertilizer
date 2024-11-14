@@ -9,7 +9,7 @@ import {
 
 function ProductCard({ cards }) {
   return (
-    <Card className="w-full bg-slate-200 max-w-[48rem] flex-row">
+    <Card className="w-full bg-[#1F4E3D] text-white max-w-[48rem] flex-row">
       <CardHeader
         shadow={false}
         floated={false}
